@@ -1,0 +1,41 @@
+_repo: Camps-and-Trails-in-ChinaA-Narrative-of-Exploration-Adventure-and-Sport-in-Little-Known-China_12296
+_version: 0.0.1
+creator:
+  authors:
+  - agent_name: Andrews, Yvette Borup
+    alias: Borup Andrews, Yvette
+    gutenberg_agent_id: '4639'
+    url: http://www.gutenberg.org/2009/agents/4639
+  - agent_name: Andrews, Roy Chapman
+    birthdate: 1884
+    deathdate: 1960
+    gutenberg_agent_id: '4301'
+    url: http://www.gutenberg.org/2009/agents/4301
+    wikipedia: http://en.wikipedia.org/wiki/Roy_Chapman_Andrews
+description: ''
+gutenberg_bookshelf: Children's History
+gutenberg_issued: '2004-05-01'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '12296'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Andrews, Roy Chapman, 1884-1960'
+- !lcsh 'Hunting -- China -- Yunnan Sheng'
+- !lcsh 'Andrews, Yvette Borup'
+- !lcsh 'Yunnan Sheng (China) -- Description and travel'
+- !lcsh 'Asiatic Zoölogical Expedition (1916-1917)'
+- !lcsh 'Heller, Edmund, 1875-1939'
+- !lcsh 'China -- Social life and customs -- 1912-1949'
+- !lcsh 'Natural history -- China -- Yunnan Sheng'
+- !lcsh 'China -- Description and travel'
+- !lcsh 'Zoology -- China -- Yunnan Sheng'
+- !lcc 'DS'
+- GITenberg
+title: 'Camps and Trails in China
+
+  A Narrative of Exploration, Adventure, and Sport in Little-Known China'
+url: http://www.gutenberg.org/ebooks/12296
