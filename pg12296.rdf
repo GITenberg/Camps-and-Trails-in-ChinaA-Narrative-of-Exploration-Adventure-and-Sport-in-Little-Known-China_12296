@@ -1,274 +1,296 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:dcam="http://purl.org/dc/dcam/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:cc="http://web.resource.org/cc/"
 >
   <pgterms:ebook rdf:about="ebooks/12296">
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N3bbd8c35ee854c31b2e16d4de88de03f">
+        <rdf:value>Yunnan Sheng (China) -- Description and travel</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="N1504ef078a584cbe8abb1170659c0d57">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Children's History</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12296.txt.utf-8">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/12296/12296-8.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/12296"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-05-08T00:00:18</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc33808926cae4c95b5248b0a60934839">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">566690</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12296.kindle.noimages">
         <dcterms:isFormatOf rdf:resource="ebooks/12296"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N21b30fb3875f42b6b765e9f1ea976b61">
+          <rdf:Description rdf:nodeID="N5a94b20850f64e52a6a3bf8d6a853ae1">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-06T03:37:39.249208</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1074131</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N4b17f50d9a8147ab9e00f752e0d35706">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/12296/12296.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-05-08T00:00:20</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne7b23e9d81204046b2c72cbd479d380a">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/12296"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">217155</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4a34fb25c9674d899ed9743014453f4a">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">566868</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T12:58:34.334599</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12296.txt.utf-8">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N943ec404391542e48f27daf0e0f96ecb">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/12296"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-06T03:37:32.501322</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">566870</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/4301">
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Roy_Chapman_Andrews"/>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1884</pgterms:birthdate>
+        <pgterms:name>Andrews, Roy Chapman</pgterms:name>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1960</pgterms:deathdate>
+      </pgterms:agent>
+    </dcterms:creator>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nac79f76bf5224271acd0b9cea4629c99">
+      <rdf:Description rdf:nodeID="N22c086ce8bbc45bf8908102c9cf01157">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Asiatic Zoölogical Expedition (1916-1917)</rdf:value>
+        <rdf:value>China -- Description and travel</rdf:value>
       </rdf:Description>
     </dcterms:subject>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N761d9c6fae4347848a38b80f7fbf44ae">
+        <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+      </rdf:Description>
+    </dcterms:type>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12296.epub.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/12296"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">247662</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T12:58:35.997932</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-06T03:37:33.569298</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N8019623ca6bd4e95a8142fce8508e451">
+          <rdf:Description rdf:nodeID="N030a72716269492b91781cc31c2459d1">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/12296"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">246579</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</pgterms:downloads>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N5548338f2f774d459b59cb2f6fae2982">
+        <rdf:value>Heller, Edmund, 1875-1939</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12296.qioo">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T10:52:32.459803</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">279164</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12296.rdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:09:19.840980</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N5709077623a44b59806324eab6de33fc">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
+          <rdf:Description rdf:nodeID="Na733e03836fa4b78887b93089081baf5">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16139</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/12296"/>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Na65b12706654476fb542755d677c57e7">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Hunting -- China -- Yunnan Sheng</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nd0aad7d40fe54227ad397f1844c889b1">
+        <rdf:value>Natural history -- China -- Yunnan Sheng</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nc234fd87b29b4afda26af5c96966d407">
+        <rdf:value>Zoology -- China -- Yunnan Sheng</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12296.epub.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/12296"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-06T03:37:33.216311</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">246578</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na4374822293c4e268babe3e16b3b652f">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N1d37147c45a049618e3b7a69e0b08392">
+        <rdf:value>Asiatic Zoölogical Expedition (1916-1917)</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/12296/12296.txt">
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">566860</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-05-08T00:00:18</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/12296"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd96a54b07b664cec9e19b07611fca090">
+          <rdf:Description rdf:nodeID="N23526d8a4f014e3b966aee886a1a070e">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Na776cca934d748068e513dbab4b4ae00">
-        <rdf:value>China -- Description and travel</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/4301">
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1960</pgterms:deathdate>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Roy_Chapman_Andrews"/>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1884</pgterms:birthdate>
-        <pgterms:name>Andrews, Roy Chapman</pgterms:name>
-      </pgterms:agent>
-    </dcterms:creator>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</pgterms:downloads>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nbabd3f4cffc94b26a4eac17aef61c282">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Andrews, Yvette Borup</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:title>Camps and Trails in China
-A Narrative of Exploration, Adventure, and Sport in Little-Known China</dcterms:title>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/12296/12296-8.zip">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12296.kindle.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1074142</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N3980dfdd5bad41a78e2c1d1767b4e15a">
+          <rdf:Description rdf:nodeID="Nb66a858283544207bd09b88dccd5fd68">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">217230</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-05-08T00:00:20</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/12296"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfac3166219e24d85958300041dd659ec">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N79e4e47044994397b80e467afc3cdc31">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Heller, Edmund, 1875-1939</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N4d0444db5f7d481c96d2fa498b2620e7">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-        <rdf:value>DS</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/12296/12296.zip">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-05-08T00:00:20</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N4744e622ebea4174bab218feae0e12d8">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/12296"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb9c4b5eecbd8481d8d9a3dab06073ba7">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">217155</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-06T03:37:36.443253</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="N43417318a0544831b53839235da9b705">
-        <rdf:value>Text</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-      </rdf:Description>
-    </dcterms:type>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/4639">
         <pgterms:name>Andrews, Yvette Borup</pgterms:name>
         <pgterms:alias>Borup Andrews, Yvette</pgterms:alias>
       </pgterms:agent>
     </dcterms:creator>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N2ef4781beba34c029c2b58c8e657c1af">
-        <rdf:value>Natural history -- China -- Yunnan Sheng</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N24b09b93e1ed4481970f315f5b6f06ee">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nf10afebcee194d5185877bc6db2f2536">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>China -- Social life and customs -- 1912-1949</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/12296/12296-h/12296-h.htm">
-        <dcterms:isFormatOf rdf:resource="ebooks/12296"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">640088</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/12296"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-05-08T00:00:18</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N254b9b91c6ce4b238f93324f7412fac1">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+          <rdf:Description rdf:nodeID="N56b657b1efad47efadb930f2af9a8876">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-05-08T00:00:18</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-05-01</dcterms:issued>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/12296/12296-h.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N8e913c6d440b45d8a5732c4b29536258">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N569f49fc91304b8f83d9471b77045e2e">
+          <rdf:Description rdf:nodeID="N57e8fa1a5d1348cd890c180e7ac20ce8">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-05-08T00:00:20</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8ddd5d8492404b0e8007f5fc4bbd8b90">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/12296"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">229996</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/12296/12296-8.txt">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">566690</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/12296"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Naaf444dcd44044198485bb2a83e403e1">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-05-08T00:00:18</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N1e66e14785494510be12694be25fe752">
+      <rdf:Description rdf:nodeID="N8e2ac0f4244f41e5a7b39afaeaf04142">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>China -- Social life and customs -- 1912-1949</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:title>Camps and Trails in China
+A Narrative of Exploration, Adventure, and Sport in Little-Known China</dcterms:title>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nc15d6f8fe88a4852a1064e46d59153b2">
         <rdf:value>Andrews, Roy Chapman, 1884-1960</rdf:value>
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
     </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12296.plucker">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N552634c0c2bb492896af67ff807f1118">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">339475</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T10:52:38.363897</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/12296"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nfc05db409cb744d59c72a332460f5b46">
-        <rdf:value>Hunting -- China -- Yunnan Sheng</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      <rdf:Description rdf:nodeID="N0f4ef09d06ab46659008dc76378989a2">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>DS</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12296.kindle.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/12296"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T12:58:38.290650</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/12296/12296-8.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Neca58454b7a24c8d95bb5519d811fd21">
+          <rdf:Description rdf:nodeID="Ne3855cde4043445fab80808b5a4324f4">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">389284</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/12296"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">217230</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-05-08T00:00:20</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndf033dca43064852a53d4c23c3ff6170">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-05-01</dcterms:issued>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N2c4ef68b795045f2b77dd6302ee5adaf">
+      <rdf:Description rdf:nodeID="N568a9ae89b504b83860f49870157a25e">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Zoology -- China -- Yunnan Sheng</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N5f8c7496844e4a9296f062e6d20f6d3a">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Yunnan Sheng (China) -- Description and travel</rdf:value>
+        <rdf:value>Andrews, Yvette Borup</rdf:value>
       </rdf:Description>
     </dcterms:subject>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Roy_Chapman_Andrews">
     <dcterms:description>Wikipedia</dcterms:description>
